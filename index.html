@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/icons8-code-16.ico" type="image/x-icon">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="https://www.alura.com.br"><img src="images/Logo_alura.png" alt="Logo da Alura" class="logo-alura"></a>
+            <h1 class="titulo-principal">Decodificador de Texto - Alura Challenges Oracle ONE</h1>
+        </div>
+    </header>
+    <main>
+        <section class="digitar">
+
+            <textarea class="caixa-de-entrada" name="caixa-de-entrada"
+            rows="4" cols="41" placeholder="Digite seu texto..."></textarea>
+
+            <h6 class="alerta">&#9888 Apenas letras minúsculas e sem acento.</h6>
+            
+            <div class="botoes-entrada">
+                <button class="criptografar" onclick="botaoCriptografar()">Criptografar</button>
+                <button class="descriptografar" onclick="botaoDescriptografar()">Descriptografar</button>
+            </div>
+
+        </section>
+
+        <section class="resultado">
+            <textarea id="texto" name="saida-texto" class="saida-texto" cols="20" rows="10" readonly oninput="validarInput(this)"></textarea>
+
+
+
+            <button class="copiar" onclick="copiar()">Copiar</button>
+
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <p class="copyright">Copyright &copy 2023 Otávio Augusto</p>
+            <p class="links_perfis">
+                <a href="https://github.com/tavio-augusto"><img src="images/github.svg" alt="Link para o perfil do GitHub"></a>
+                <a href="https://www.instagram.com/tavio_gusto/"><img src="images/instagram.svg" alt="Link para o perfil do Instagram"></a>
+                <a href="https://www.linkedin.com/in/otavioaugustosilva/"><img src="images/linkedin.svg" alt="Link para o perfil do LinkedIn"></a>
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
