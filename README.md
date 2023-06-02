@@ -1,7 +1,7 @@
 # Decodificador de Texto - Alura Challenges Oracle ONE
 Este projeto faz parte do Programa ONE da Oracle Next Education junto com a Alura.
 
-Link do Projeto:
+Link do Projeto: https://tavio-augusto.github.io/challenge-decodificador/ 
 
 #### Neste projeto foi utilizado:
 - JavaScript
